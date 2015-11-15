@@ -348,6 +348,14 @@ StScrollBar StButton#hhandle:focus {
   font-weight: bold;
 }
 
+.popup-device-menu-item {
+  spacing: .5em;
+}
+
+.popup-device-menu-item .popup-inactive-menu-item {
+  color: rgba(255, 98, 19, 0.9);
+}
+
 /* ===================================================================
    ! Panel
    ===================================================================*/
