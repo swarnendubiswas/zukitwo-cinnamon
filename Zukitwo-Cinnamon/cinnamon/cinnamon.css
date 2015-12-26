@@ -652,6 +652,10 @@ StScrollBar StButton#hhandle:focus {
 /* ===================================================================
    ! Notifications
    ===================================================================*/
+.url-highlighter {
+  link-color: rgba(0, 109, 217, 0.9);
+}
+
 #notification {
   border-image: url("background-assets/popup.svg") 7;
   padding: 1.3em;
