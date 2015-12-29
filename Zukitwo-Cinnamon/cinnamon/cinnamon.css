@@ -1462,6 +1462,10 @@ StScrollBar StButton#hhandle:focus {
   padding: 1px;
 }
 
+.sound-player > StBoxLayout:first-child StButton:small:hover * {
+  color: #6598cb;
+}
+
 .sound-player-generic-coverart {
   padding: 0 2px;
 }
