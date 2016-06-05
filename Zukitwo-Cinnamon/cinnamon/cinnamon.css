@@ -3,7 +3,7 @@
    ===================================================================*/
 stage {
   font-family: Droid Sans, Sans-Serif;
-  font-size: 9pt;
+  font-size: 11pt;
 }
 
 .cinnamon-link {
@@ -361,8 +361,8 @@ StScrollBar StButton#hhandle:focus {
    ===================================================================*/
 #panel {
   background-color: rgba(0, 0, 0, 0.5);
-  font-size: 9pt;
-  height: 25px;
+  font-size: 10.5pt;
+  height: 26px;
 }
 
 #panel.panel-top {
@@ -1575,6 +1575,7 @@ StScrollBar StButton#hhandle:focus {
   padding-right: 8px;
   color: rgba(0, 0, 0, 0.4);
   font-weight: bold;
+  color: white;
 }
 
 /* Different images used in top & bottom panels. */
@@ -1584,26 +1585,31 @@ StScrollBar StButton#hhandle:focus {
 }
 
 .panel-top .workspace-button:hover {
-  border-image: url("panel-assets/panel-top-item.svg") 4;
-  color: rgba(0, 0, 0, 0.85);
+    border-image: url("panel-assets/panel-top-item.svg") 4;
+    /* color: rgba(0, 0, 0, 0.85); */
+    color: white;
 }
 
 .panel-top .workspace-button:outlined:hover {
-  border-image: url("panel-assets/panel-top-item-hover.svg") 4;
+    border-image: url("panel-assets/panel-top-item-hover.svg") 4;
+    color: white;
 }
 
 .panel-bottom .workspace-button:outlined {
   border-image: url("panel-assets/panel-bottom-item.svg") 4;
-  color: rgba(0, 0, 0, 0.85);
+  /* color: rgba(0, 0, 0, 0.85); */
+  color: white;
 }
 
 .panel-bottom .workspace-button:hover {
   border-image: url("panel-assets/panel-bottom-item.svg") 4;
-  color: rgba(0, 0, 0, 0.85);
+  /* color: rgba(0, 0, 0, 0.85); */
+  color: white;
 }
 
 .panel-bottom .workspace-button:outlined:hover {
-  border-image: url("panel-assets/panel-bottom-item-hover.svg") 4;
+    border-image: url("panel-assets/panel-bottom-item-hover.svg") 4;
+    color: white;
 }
 
 /* ===================================================================
